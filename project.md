@@ -1,4 +1,4 @@
-# Autonomous AI Cryptocurrency Trading Agent — End-to-End Project Specification
+# Aurex — Autonomous AI Cryptocurrency Trading Engine — End-to-End Project Specification
 
 ## 1. Project Overview
 

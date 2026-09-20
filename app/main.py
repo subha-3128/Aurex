@@ -263,7 +263,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Autonomous Multi-Agent AI Trading System",
+    title="Aurex // Autonomous Multi-Agent AI Trading Engine",
     version="3.0.0",
     lifespan=lifespan,
 )

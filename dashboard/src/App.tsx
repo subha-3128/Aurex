@@ -98,7 +98,7 @@ export default function App() {
           </div>
           <div className="brand-info">
             <div className="brand-title">
-              AEGIS // QUANTUM
+              AUREX
               <span className="brand-version">PRO</span>
             </div>
             <div className="brand-subtitle">
@@ -351,7 +351,7 @@ export default function App() {
         <div className="footer-tags">
           <span className="footer-pill">
             <span className="radar-dot" style={{ background: 'var(--color-profit)' }} />
-            <span>AEGIS // QUANTUM SPOT ENGINE</span>
+            <span>AUREX SPOT ENGINE</span>
           </span>
           <span className="footer-pill">
             <span>Cycle #{status?.cycle_count ?? 0}</span>
