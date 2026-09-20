@@ -1,0 +1,78 @@
+# ── Critical Security & Private Configuration ──────────────────────────────
+# NEVER commit environment variables or private keys
+.env
+.env.*
+*.env
+!.env.example
+secrets/
+*.pem
+*.key
+*.cert
+
+# ── Python & Virtual Environments ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Testing, Typechecking & Linting Caches ─────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.oxlint_cache/
+
+# ── Databases & Runtime State ──────────────────────────────────────────────
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# ── Logs ───────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Frontend (Dashboard) ───────────────────────────────────────────────────
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+dashboard/.cache/
+
+# ── OS & Editor Artifacts ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
