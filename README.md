@@ -12,7 +12,7 @@
 
 ---
 
-## Quick Overview (1-Minute Read)
+## Quick Overview
 
 | Question | Answer |
 | :--- | :--- |
